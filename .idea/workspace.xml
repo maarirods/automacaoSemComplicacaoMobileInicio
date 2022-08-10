@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f431b29-4eeb-4f97-a203-e89c68f81982" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/chronosAcademy/appium/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/chronosAcademy/appium/CalculadoraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/chronosAcademy/appium/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/chronosAcademy/appium/DriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,22 @@
       <recent name="br.com.chronosAcademy.logica" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CalculadoraTest">
+    <configuration name="CalculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automacaoSemComplicacaoMobileInicio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.chronosAcademy.appium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.chronosAcademy.appium" />
+      <option name="MAIN_CLASS_NAME" value="br.com.chronosAcademy.appium.CalculadoraTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LogicaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automacaoSemComplicacaoMobileInicio" />
       <extension name="coverage">
@@ -70,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraTest" />
         <item itemvalue="JUnit.LogicaTest" />
       </list>
     </recent_temporary>
