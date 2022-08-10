@@ -21,6 +21,11 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>7.5.1</version>
+        </dependency>
 
     </dependencies>
 
