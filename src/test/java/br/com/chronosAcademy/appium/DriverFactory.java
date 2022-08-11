@@ -8,7 +8,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.sql.Driver;
 
 public class DriverFactory {
     private DesiredCapabilities capabilities;
@@ -16,15 +15,15 @@ public class DriverFactory {
 
     public void setDriver() throws MalformedURLException {
         driver = new AppiumDriver<MobileElement>(
-                new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+                new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
     }
 
-    public AppiumDriver<MobileElement> getDriver() {
+    public AppiumDriver<MobileElement> getDriver(){
         return driver;
     }
 
     public void setCapabilities(String platform, String device, String automation,
-                                String appPackage, String appActivity) {
+                                String appPackage, String appActivity){
         capabilities = new DesiredCapabilities();
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, platform);
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, device);

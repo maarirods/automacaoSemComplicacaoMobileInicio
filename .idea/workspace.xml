@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f431b29-4eeb-4f97-a203-e89c68f81982" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/chronosAcademy/appium/CalculadoraTest.java" afterDir="false" />
+    <list default="true" id="1f431b29-4eeb-4f97-a203-e89c68f81982" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/chronosAcademy/appium/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/chronosAcademy/appium/CalculadoraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/chronosAcademy/appium/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/chronosAcademy/appium/DriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,5 +123,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="br.com.chronosAcademy.appium.DriverFactory" memberName="driver" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
